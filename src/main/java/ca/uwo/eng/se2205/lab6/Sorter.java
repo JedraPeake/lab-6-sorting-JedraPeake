@@ -17,5 +17,5 @@ public interface Sorter {
      * @param sort The List to sort
      * @param comparator Compares two elements
      */
-    <E> void sort(List<E> sort, Comparator<E> comparator);
+    <E> void sort(DelayedList<E> sort, DelayedComparator<E> comparator);
 }
