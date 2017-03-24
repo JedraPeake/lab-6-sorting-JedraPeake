@@ -1,0 +1,21 @@
+Algorithm,n,List Speed,List Ops/sort,Comparison Speed,Comparison Ops/sort,Time (ns),,,,,,
+InsertionSorter,5,Fast,48,Fast,12,537133,,Quick Sort Times,Insertion Sort Ratio,Selection Sort Ratio,Merge Sort Ratio,Quick Sort Ratio
+InsertionSorter,10,Fast,163,Fast,40,759513,,545259,0.985096991,15.89567527,0.839214025,1
+InsertionSorter,20,Fast,535,Fast,124,4488227,,709905,1.069879773,5.315664772,0.717470647,1
+InsertionSorter,40,Fast,1917,Fast,420,4261998,,1492084,3.008025688,10.90943003,1.290341563,1
+InsertionSorter,100,Fast,12581,Fast,2611,12307877,,6860850,0.621205536,1.792993725,0.446778023,1
+SelectionSort,5,Fast,42,Fast,15,8667260,,5186585,2.373021362,3.082289213,0.678677396,1
+SelectionSort,10,Fast,146,Fast,55,3773617,,,,,,
+SelectionSort,20,Fast,492,Fast,210,16277786,,,,,,
+SelectionSort,40,Fast,1788,Fast,820,12301461,,,,,,
+SelectionSort,100,Fast,10480,Fast,5050,15986555,,,,,,
+QuickSort,5,Fast,41,Fast,17,545259,,,,,,
+QuickSort,10,Fast,98,Fast,41,709905,,,,,,
+QuickSort,20,Fast,226,Fast,109,1492084,,,,,,
+QuickSort,40,Fast,565,Fast,278,6860850,,,,,,
+QuickSort,100,Fast,1788,Fast,1028,5186585,,,,,,
+MergeSort,5,Fast,24,Fast,5,457589,,,,,,
+MergeSort,10,Fast,76,Fast,15,509336,,,,,,
+MergeSort,20,Fast,224,Fast,40,1925298,,,,,,
+MergeSort,40,Fast,456,Fast,100,3065277,,,,,,
+MergeSort,100,Fast,2464,Fast,316,3520018,,,,,,
