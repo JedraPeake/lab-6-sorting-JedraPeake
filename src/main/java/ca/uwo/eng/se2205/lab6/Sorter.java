@@ -2,7 +2,6 @@ package ca.uwo.eng.se2205.lab6;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.Comparator;
-import java.util.List;
 
 /**
  * Defines that a class can sort a {@link DelayedList} based on a {@link Comparator}.

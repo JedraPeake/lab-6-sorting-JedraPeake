@@ -19,7 +19,7 @@ public final class BatchRunner {
     private static final int NUMBER_OF_PROCS = Runtime.getRuntime().availableProcessors();
     private final Executor exec;
 
-    private final List<Runnable> toRun;
+    private final List<myrunnable> toRun;
 
     /**
      * Create a new Batch Runner instance
@@ -31,13 +31,13 @@ public final class BatchRunner {
 
 
     /**
-     * Enqueues the {@code Runnable} to run next time {@link #run()} is called.
+     * Enqueues the {@code myrunnable} to run next time {@link #run()} is called.
      *
-     * @param toRun Runnable to run
+     * @param toRun myrunnable to run
      *
      * @see #enqueueAll(Collection)
      */
-    public synchronized void enqueue(Runnable toRun) {
+    public synchronized void enqueue(myrunnable toRun) {
         this.toRun.add(checkNotNull(toRun, "toRun == null"));
     }
 
@@ -45,9 +45,9 @@ public final class BatchRunner {
      * Enqueues a collection of Runnables
      * @param all Collection of Runnables
      *
-     * @see #enqueue(Runnable)
+     * @see #enqueue(myrunnable)
      */
-    public synchronized void enqueueAll(Collection<? extends Runnable> all) {
+    public synchronized void enqueueAll(Collection<? extends myrunnable> all) {
         all.forEach(this::enqueue);
     }
 
@@ -60,7 +60,7 @@ public final class BatchRunner {
 
         CountDownLatch latch = new CountDownLatch(toRun.size());
 
-        for (Runnable r : toRun) {
+        for (myrunnable r : toRun) {
             exec.execute(() -> {
                 r.run();
                 latch.countDown();
@@ -77,6 +77,4 @@ public final class BatchRunner {
 
         toRun.clear();
     }
-
-
 }
