@@ -17,3 +17,5 @@ Looking at comparisons per sort Merge sort preformed best with the least compari
 overall selection sort does the most comparator comparison Ops, while insertion sort does the most list comparisons. Meaning the 2 algorithms are not as efficient as Quick and Merge.On average Selection Sort toom longer and is therefore the worst algorithim.
 
 ## Calculate the ratios of the average comparison of complexity of the algorithms against the "best" algorithm. This is the ratio of average time for an algorithm divided by the best algorithm. Create a table showing the comparisons.
+
+![alt tag] ()
