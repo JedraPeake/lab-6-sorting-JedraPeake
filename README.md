@@ -18,4 +18,4 @@ overall selection sort does the most comparator comparison Ops, while insertion 
 
 ## Calculate the ratios of the average comparison of complexity of the algorithms against the "best" algorithm. This is the ratio of average time for an algorithm divided by the best algorithm. Create a table showing the comparisons.
 
-![alt tag] (https://raw.githubusercontent.com/uwoece-se2205b-2017/lab-6-sorting-JedraPeake/master/Capture.PNG?token=AXFuEVPMG4VLtT7knHnvo6GfA4knCZcgks5Y3abxwA%3D%3D)
+![alt tag](https://raw.githubusercontent.com/uwoece-se2205b-2017/lab-6-sorting-JedraPeake/master/Capture.PNG?token=AXFuEVPMG4VLtT7knHnvo6GfA4knCZcgks5Y3abxwA%3D%3D)
